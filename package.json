@@ -1,0 +1,41 @@
+{
+  "name": "url-to-pdf-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to convert web pages to PDF using Puppeteer",
+  "main": "index.js",
+  "bin": {
+    "url-to-pdf": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "puppeteer",
+    "cli",
+    "webpage",
+    "convert",
+    "html-to-pdf"
+  ],
+  "author": {
+    "name": "Jonah Cui",
+    "email": "jonahcui0@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonahcui/url-to-pdf-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/jonahcui/url-to-pdf-cli/issues"
+  },
+  "homepage": "https://github.com/jonahcui/url-to-pdf-cli#readme",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.6.1",
+    "commander": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
